@@ -1,0 +1,52 @@
+*,
+* ::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #eee;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+}
+header p {
+  color: #433878;
+  background: #E4B1F0;
+  font-family: "Arima", system-ui;
+  font-size: 200%;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0px 2px 12px #7e60bf;
+  width: 100%;
+}
+
+div {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+  border-radius: 50%;
+  box-shadow: -250px -140px 1px 0 #7e60bf, -200px -140px 1px 0 #7e60bf, -150px -140px 1px 0 #7e60bf, -145px -90px 1px 0 #7e60bf, -290px -110px 1px 0 #7e60bf, -300px -60px 1px 0 #7e60bf, -300px -10px 1px 0 #7e60bf, -300px 40px 1px 0 #7e60bf, -300px 90px 1px 0 #7e60bf, -280px 135px 1px 0 #7e60bf, -230px 140px 1px 0 #7e60bf, -180px 140px 1px 0 #7e60bf, -140px 110px 1px 0 #7e60bf, -140px 60px 1px 0 #7e60bf, -190px 60px 1px 0 #7e60bf, 290px -140px 1px 0 #7e60bf, 315px -100px 1px 0 #7e60bf, 240px -140px 1px 0 #7e60bf, 190px -140px 1px 0 #7e60bf, 150px -100px 1px 0 #7e60bf, 150px -50px 1px 0 #7e60bf, 150px 0px 1px 0 #7e60bf, 150px 50px 1px 0 #7e60bf, 150px 100px 1px 0 #7e60bf, 180px 140px 1px 0 #7e60bf, 230px 140px 1px 0 #7e60bf, 280px 140px 1px 0 #7e60bf, 315px 105px 1px 0 #7e60bf;
+}
+
+footer {
+  color: #433878;
+  background: #E4B1F0;
+  font-family: "Arima", system-ui;
+  font-size: 200%;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 5px #7e60bf;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

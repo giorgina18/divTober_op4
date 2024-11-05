@@ -1,0 +1,58 @@
+@use '../../abstract/colors';
+@use '../../abstract/mixins';
+
+div {
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    border-radius: 50%;
+
+    box-shadow:
+        // negatieve waarde voor G.  X staat voor hoogte, Y voor breedte, B staat voor blur, S staat om het groter te maken (spread) // 
+        // X      Y    B  S //    
+        -250px -140px 1px 0 rgba(colors.$donker_lila , 2),
+        -200px -140px 1px 0 rgba(colors.$donker_lila , 2),
+        -150px -140px 1px 0 rgba(colors.$donker_lila , 2),
+        -145px -90px 1px 0 rgba(colors.$donker_lila , 2),
+        -290px -110px 1px 0 rgba(colors.$donker_lila , 2),
+        -300px -60px 1px 0 rgba(colors.$donker_lila , 2),
+        -300px -10px 1px 0 rgba(colors.$donker_lila , 2),
+        -300px 40px 1px 0 rgba(colors.$donker_lila , 2),
+        -300px 90px 1px 0 rgba(colors.$donker_lila , 2),
+        -280px 135px 1px 0 rgba(colors.$donker_lila , 2),
+        -230px 140px 1px 0 rgba(colors.$donker_lila , 2),
+        -180px 140px 1px 0 rgba(colors.$donker_lila , 2),
+        -140px 110px 1px 0 rgba(colors.$donker_lila , 2),
+        -140px 60px 1px 0 rgba(colors.$donker_lila , 2),
+        -190px 60px 1px 0 rgba(colors.$donker_lila , 2),
+
+
+        // letter C // 
+        290px -140px 1px 0 rgba(colors.$donker_lila , 2),
+        315px -100px 1px 0 rgba(colors.$donker_lila , 2),
+        240px -140px 1px 0 rgba(colors.$donker_lila , 2),
+        190px -140px 1px 0 rgba(colors.$donker_lila , 2),
+        150px -100px 1px 0 rgba(colors.$donker_lila , 2),
+        150px -50px 1px 0 rgba(colors.$donker_lila , 2),
+        150px 0px 1px 0 rgba(colors.$donker_lila , 2),
+        150px 50px 1px 0 rgba(colors.$donker_lila , 2),
+        150px 100px 1px 0 rgba(colors.$donker_lila , 2),
+        180px 140px 1px 0 rgba(colors.$donker_lila , 2),
+        230px 140px 1px 0 rgba(colors.$donker_lila , 2),
+        280px 140px 1px 0 rgba(colors.$donker_lila , 2),
+        315px 105px 1px 0 rgba(colors.$donker_lila , 2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

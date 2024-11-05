@@ -1,0 +1,14 @@
+@use '../../abstract/colors';
+@use '../../abstract/fonts';
+
+footer {
+    color: colors.$font-color;
+    background: colors.$lila;
+    font-family: fonts.$Arima;
+    font-size: 200%;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 5px rgba(colors.$donker_lila , 2);
+    width: 100%;
+}
